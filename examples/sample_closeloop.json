@@ -1,0 +1,17 @@
+[
+  {
+    "image": [
+      "examples/images/demo_page.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nPlease judge the state of the appliance lid."
+      },
+      {
+        "from": "gpt",
+        "value": "closed"
+      }
+    ]
+  }
+]

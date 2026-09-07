@@ -1,0 +1,60 @@
+cff-version: 1.2.0
+message: If you use this software or released model/data, please cite the paper below.
+title: "AppliancePlan / UseAppliance open-source release"
+authors:
+  - family-names: Long
+    given-names: Yuxing
+  - family-names: Kang
+    given-names: Lei
+  - family-names: Yu
+    given-names: Ziyan
+  - family-names: Gao
+    given-names: Yuzheng
+  - family-names: Cheng
+    given-names: Bin
+  - family-names: Zhang
+    given-names: Jiyao
+  - family-names: Li
+    given-names: Xiaoqi
+  - family-names: Yang
+    given-names: Haolin
+  - family-names: Li
+    given-names: Dongjiang
+  - family-names: Shen
+    given-names: Hui
+  - family-names: Dong
+    given-names: Hao
+preferred-citation:
+  type: conference-paper
+  title: "Scaling Manual-Grounded Appliance Manipulation with Data Synthesis and Unified Planning"
+  authors:
+    - family-names: Long
+      given-names: Yuxing
+    - family-names: Kang
+      given-names: Lei
+    - family-names: Yu
+      given-names: Ziyan
+    - family-names: Gao
+      given-names: Yuzheng
+    - family-names: Cheng
+      given-names: Bin
+    - family-names: Zhang
+      given-names: Jiyao
+    - family-names: Li
+      given-names: Xiaoqi
+    - family-names: Yang
+      given-names: Haolin
+    - family-names: Li
+      given-names: Dongjiang
+    - family-names: Shen
+      given-names: Hui
+    - family-names: Dong
+      given-names: Hao
+  year: 2026
+  collection-title: "Proceedings of the 34th ACM International Conference on Multimedia (MM '26)"
+  conference:
+    name: ACM Multimedia 2026
+    city: Rio de Janeiro
+    country: BR
+  doi: 10.1145/3767308.3836196
+  url: https://doi.org/10.1145/3767308.3836196

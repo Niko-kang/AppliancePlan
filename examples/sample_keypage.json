@@ -1,0 +1,17 @@
+[
+  {
+    "image": [
+      "examples/images/demo_page.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAnalyze this manual page image and judge if it is a 'Product Overview' page. Answer 'yes' or 'no' only."
+      },
+      {
+        "from": "gpt",
+        "value": "no"
+      }
+    ]
+  }
+]

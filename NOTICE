@@ -1,0 +1,12 @@
+Data Flywheel / AppliancePlan open-source release
+Copyright 2026 AppliancePlan Authors (see paper)
+
+Paper:
+  Scaling Manual-Grounded Appliance Manipulation with Data Synthesis and Unified Planning
+  ACM MM '26, https://doi.org/10.1145/3767308.3836196
+  PDF: docs/paper/AppliancePlan_MM26.pdf
+
+This product includes training/evaluation software for AppliancePlan and
+packaging for UseAppliance-related training assets.
+Third-party components (PyTorch, Transformers, DeepSpeed, vLLM, Qwen, etc.)
+remain under their respective licenses. Base model weights are obtained separately.

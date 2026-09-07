@@ -1,0 +1,19 @@
+[
+  {
+    "id": "demo_bbox_001",
+    "image": [
+      "examples/images/demo_page.png",
+      "examples/images/demo_part.png"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\nGiven the manual page and a cropped part with bbox [10, 10, 40, 40], predict the part name."
+      },
+      {
+        "from": "gpt",
+        "value": "POWER BUTTON"
+      }
+    ]
+  }
+]

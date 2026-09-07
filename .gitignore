@@ -1,0 +1,38 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Logs & local outputs
+*.log
+.extract_progress.log
+outputs/
+Flywheel_Train/
+iteration_*/
+result/
+checkpoint-*/
+
+# Models / data (keep out of git)
+*.pt
+*.bin
+*.safetensors
+*.gguf
+*.tar
+*.tar.gz
+
+# Env / IDE
+.env
+.venv/
+venv/
+.idea/
+.vscode/
+
+# Local experiment outputs
+/tmp/
+*.swp
+
+# Do not commit large user datasets by mistake
+examples/exp_demo/**/model/
+examples/exp_demo/**/result/
+examples/exp_demo/**/log/

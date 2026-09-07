@@ -29,9 +29,16 @@ AppliancePlan/     # this repo → GitHub
   docs/                       # environment + paper PDF
   examples/                   # tiny format demos
 
-../AppliancePlan-Model/    # → Hugging Face (model)
-../UseAppliance/  # → Hugging Face (dataset: Train_data + images)
+../AppliancePlan-Model/    # local mirror of HF model
+../UseAppliance/           # local mirror of HF dataset
 ```
+
+**Hugging Face**
+
+| Asset | URL |
+|-------|-----|
+| Model | https://huggingface.co/NikolaKang/AppliancePlan |
+| Dataset | https://huggingface.co/datasets/NikolaKang/UseAppliance |
 
 ## Tasks (aligned with the paper)
 
@@ -60,13 +67,16 @@ pip install -r requirements-infer.txt
 ### 2) Model & training data
 
 ```bash
-export MODEL_PATH=/home/jd/下载/开源数据/AppliancePlan-Model
-export IMAGE_PATH=/home/jd/下载/开源数据/UseAppliance
+# download (or use local mirrors under 开源数据/)
+hf download NikolaKang/AppliancePlan --local-dir ./AppliancePlan-Model
+hf download NikolaKang/UseAppliance --repo-type dataset --local-dir ./UseAppliance
+cd UseAppliance && tar -xf images.tar   # creates images/
+
+export MODEL_PATH=./AppliancePlan-Model
+export IMAGE_PATH=./UseAppliance
 # annotations: $IMAGE_PATH/Train_data
 # images:      $IMAGE_PATH/images/...  (JSON paths are relative to IMAGE_PATH)
 ```
-
-After you upload to Hugging Face, replace local paths with `huggingface-cli download ...`.
 
 ### 3) Train → eval
 

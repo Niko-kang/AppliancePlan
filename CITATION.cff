@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: If you use this software or released model/data, please cite the paper below.
-title: "AppliancePlan / UseAppliance open-source release"
+title: "AppliancePlan (ACM MM '26 open-source release)"
 authors:
   - family-names: Long
     given-names: Yuxing

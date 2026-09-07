@@ -1,4 +1,4 @@
-# AppliancePlan / UseAppliance (Data Flywheel)
+# AppliancePlan
 
 Official code for the ACM MM ’26 paper:
 
